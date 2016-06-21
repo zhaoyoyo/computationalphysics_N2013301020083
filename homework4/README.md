@@ -10,8 +10,8 @@
 ####where<img src="http://chart.googleapis.com/chart?cht=tx&chl=%24%5Ctau%20_A%24" style="border:none;" />and <img src="http://chart.googleapis.com/chart?cht=tx&chl=%24%5Ctau%20_B%24" style="border:none;" /> are the decay time constants for each type of nucleis.Use the Euler method to solve these coupled equations for N<sub>A</sub>(t) and N<sub>B</sub>(t) as functions of time.This priblem can also be solved exactly,as was the case with our orginal nuclear decay problem (1.1).
 
 ##正文
-####我们的目标是获得N<sub>A</sub>(t)关于t的函数关系式。
-####对N<sub>A</sub>(t)进行泰勒展开有：
+我们的目标是获得N<sub>A</sub>(t)关于t的函数关系式。
+对N<sub>A</sub>(t)进行泰勒展开有：
 
 <img src="http://chart.googleapis.com/chart?cht=tx&chl=N_A(%5CDelta%20t)%3DN_A(0)%2B%5Cfrac%7B%24dN_A%24%7D%7Bdt%7D%5CDelta%20t%2B%5Cfrac%7B1%7D%7B2%7D%5Cfrac%7Bd%5E%7B2%7DN_A%7D%7Bdt%5E%7B2%7D%7D(%5CDelta%20t)%5E%7B2%7D%2B......" style="border:none;" />
 
